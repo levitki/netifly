@@ -143,7 +143,7 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
+    - name: Europe
       description: The main servers are located here.
       closed: true
     - name: Empty Category
@@ -158,16 +158,16 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: Okta
+      category: Europe
+    - name: Office 365
+      category: Europe
+    - name: Attlasian
+      description: Comm Platform
+      category: Europe
+    - name: Slack
+      description: IM.
+      category: Europe
 
   # What date format to use?
   #
